@@ -1,0 +1,277 @@
+/*CSS tool reset  */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*style*/
+body {
+	font :16px/28px arial,  sans-serif;
+	background: #eaeaea;
+	color:#333;
+}
+
+.container{
+	width: 900px;
+	margin:auto;
+	background-color: #fff;
+
+}
+
+.header {
+	padding:20px;
+
+}
+
+.header .judul{
+	font-size: 40px;
+	font-weight: bold;
+}
+
+.header ul li {
+	display: inline-block;
+	margin-top: 20px;
+	margin-right: 10px;
+}
+.header hr {
+	width: 850px;
+	border-top:4px solid #336699;
+}
+
+.header a {
+	text-decoration: none;
+	color:black;
+	padding: 3px;
+}
+.header a:hover {
+	background-color: lightskyblue ;
+	color : white;
+
+}
+
+
+
+.potoprofil{
+	padding-top: 20px;
+}
+
+.potoprofil img{
+	width: 300px;
+	height: 300px;
+	border: 3px solid #333;
+	border-radius: 50%;
+	display: block;
+	margin: auto;
+
+
+}
+.potoprofil h1 {
+	padding-top: 10px;
+	text-align: center;
+	font-size: 35px;
+	font-weight: bold;
+}
+
+.potoprofil p {
+	padding-top: 10px;
+	text-align: center;
+	font-size: 17px;
+	font-weight: bold;
+}
+
+
+
+
+
+.home {
+	padding-top: 40px;
+}
+.home h2 {
+	font-size: 25px;
+	padding-bottom: 10px;
+}
+
+.home h2 a {
+	color: black;
+}
+.home p {
+	text-align: justify;
+}
+
+
+
+
+
+.pendidikan {
+	padding-top: 40px;
+}
+.pendidikan h2{
+	font-size: 25px;
+	padding-bottom: 10px;
+}
+.pendidikan h2 a {
+	color: black;
+}
+.pendidikan p {
+	padding-bottom: 5px;
+}
+.pendidikan table {
+	width :850px;
+	border:1px;
+}
+.pendidikan table th {
+	color :#FFFF;
+	background-color: #336699;
+	border-width: 1px;
+	border-style: solid;
+	border-color: black;
+}
+
+.pendidikan table td{
+	color:black;
+	background-color: #E6E6FA;
+	border-width: 1px;
+	border-style: solid;
+	border-color: blue;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 5px;
+}
+
+
+
+.jadwalkuliah{
+	padding-top: 40px;
+}
+.jadwalkuliah h2 {
+	font-size: 25px;
+	padding-bottom: 10px;
+}
+.jadwalkuliah h2 a {
+	color: black;
+}
+.jadwalkuliah p {
+	padding-bottom: 5px;
+}
+.jawdwalkuliah table{
+	width: 850px;
+	border: 1px;
+}
+.jadwalkuliah table th{
+	color:#FFFF;
+	background-color: #336699;
+	border-width: 1px;
+	border-style: solid;
+	border-color: black;
+}
+.jadwalkuliah td{
+	color:black;
+	background-color: #E6E6FA;
+	border-width: 1px;
+	border-style: solid;
+	border-color: blue;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 5px;
+}
+
+
+
+.aktivitas{
+	padding-top: 40px;
+}
+.aktivitas h2 {
+	font-size: 25px;
+	padding-bottom: 10px;
+}
+.aktivitas h2 a {
+	color:black;
+}
+
+.aktivitas ol {
+	padding-left:50px;	
+	list-style-type:circle;
+}
+
+
+
+
+
+
+.sertifikat{
+	padding-top: 40px;
+}
+.sertifikat p {
+	padding-bottom: 10px
+}
+
+.sertifikat h2 {
+	font-size: 25px;
+	padding-bottom: 10px;
+}
+.sertifikat h2 a {
+	color:black;
+}
+
+.sertifikat img{
+	border: 3px solid #333;
+	padding-left: 26px;
+	padding-bottom:20px;
+	width: 250px;
+	height: 200px;
+}
+
+
+.footer{
+	padding-top: 40px;
+	padding-bottom: 40px;
+	background: #336699;
+
+}
+
+.footer p {
+	color: white ;
+	text-align: center;
+	font-size: 12px;
+	font-weight:bold;
+}
